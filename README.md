@@ -21,7 +21,7 @@ While Large Language Models (LLMs) excel at interpreting complex human queries, 
 
 ## 🏗️ System Architecture & Workflow
 
-### 1. High-Level Flowchart
+### High-Level Flowchart
 ```mermaid
 graph TD;
     A[ User Query<br>e.g. 'Optimize 300m link at 1e-5 BER' ] --> B[ SALA Orchestrator<br>LangGraph / Groq API ];
