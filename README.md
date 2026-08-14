@@ -38,7 +38,9 @@ graph TD;
     G --> H[ Formatted Recommendation & Visualizations ];
 ```
 
-##2. Repository Structure
+## 📁 Repository Structure
+
+```text
 sala-agent/
 ├── data/                       # CSV logs & saved output charts
 ├── docs/                       # Project documentation
@@ -59,10 +61,4 @@ sala-agent/
 ├── .env.example
 ├── .gitignore
 └── README.md
-
-##📊 Evaluation & Baselines
-SALA benchmark results are evaluated against two non-adaptive baseline setups across distances from 10m to 1000m:
-
-Fixed Transmit Power Baseline: Transmits constantly at maximum power regardless of link distance or channel quality
-
-Fixed Modulation Baseline: Operates on a static scheme (e.g., fixed QPSK) across all SNR states
+```
